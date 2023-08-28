@@ -366,7 +366,6 @@ console.log("Don't breathe this!");
 
 -Which console log fires first? Neither! We get the error 'magicalUnicorns is not a function'. Why? The variable magicalUnicorns got hoisted to the top, and we tried to invoke it before we assigned the function to it.
 
-
 #### Key Rules of Hoisting
 
 • Variable declarations (var) rise to the top of their scope like hot air balloons.
